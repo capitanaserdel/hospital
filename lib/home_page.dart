@@ -349,33 +349,6 @@ class HomePageState extends State<HomePage> {
                             fontWeight: FontWeight.w300,
                           ),
                         ),
-                        Container(
-                          margin: EdgeInsets.only(top: 3, left: size.width * 0.25),
-                          child: Row(
-                            children: [
-                              Container(
-                                child: Text(
-                                  "Rating: ",
-                                  style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 12,
-                                    fontFamily: 'Roboto',
-                                  ),
-                                ),
-                              ),
-                              Container(
-                                child: Text(
-                                  rating,
-                                  style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 12,
-                                    fontFamily: 'Roboto',
-                                  ),
-                                ),
-                              )
-                            ],
-                          ),
-                        )
                       ],
                     ),
                   ),

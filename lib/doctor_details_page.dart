@@ -58,7 +58,7 @@ class _DoctorDetailState extends State<DoctorDetailPage> {
                     Container(
                       margin: EdgeInsets.only(bottom: 20),
                       child: Image.asset(
-                        "assets/dr_details.png",
+                        "assets/heat.png",
                       ),
                     ),
                     Container(
@@ -132,62 +132,6 @@ class _DoctorDetailState extends State<DoctorDetailPage> {
                   demoDates("Sat", "26", false),
                   demoDates("Sun", "27", false),
                   demoDates("Mon", "28", false),
-                ],
-              ),
-            ),
-            Container(
-              margin: EdgeInsets.only(left: 20, top: 30),
-              child: Text('Morning',
-                style: TextStyle(
-                  color: Color(0xff363636),
-                  fontSize: 25,
-                  fontFamily: 'Roboto',
-                  fontWeight: FontWeight.w700,
-                ),
-              ),
-            ),
-            Container(
-              margin: EdgeInsets.only(right: 20),
-              child: GridView.count(
-                shrinkWrap: true,
-                crossAxisCount: 3,
-                physics: NeverScrollableScrollPhysics(),
-                childAspectRatio: 2.7,
-                children: [
-                  doctorTimingsData("08:30 AM", true),
-                  doctorTimingsData("08:30 AM", false),
-                  doctorTimingsData("08:30 AM", false),
-                  doctorTimingsData("08:30 AM", false),
-                  doctorTimingsData("08:30 AM", false),
-                  doctorTimingsData("08:30 AM", false),
-                ],
-              ),
-            ),
-            Container(
-              margin: EdgeInsets.only(left: 25, top: 30),
-              child: Text('Evening',
-                style: TextStyle(
-                  color: Color(0xff363636),
-                  fontSize: 25,
-                  fontFamily: 'Roboto',
-                  fontWeight: FontWeight.w700,
-                ),
-              ),
-            ),
-            Container(
-              margin: EdgeInsets.only(right: 20),
-              child: GridView.count(
-                shrinkWrap: true,
-                crossAxisCount: 3,
-                physics: NeverScrollableScrollPhysics(),
-                childAspectRatio: 2.6,
-                children: [
-                  doctorTimingsData("08:30 AM", true),
-                  doctorTimingsData("08:30 AM", false),
-                  doctorTimingsData("08:30 AM", false),
-                  doctorTimingsData("08:30 AM", false),
-                  doctorTimingsData("08:30 AM", false),
-                  doctorTimingsData("08:30 AM", false),
                 ],
               ),
             ),
